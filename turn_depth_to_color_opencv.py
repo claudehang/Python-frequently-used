@@ -14,3 +14,6 @@ depth_map_name = '171.png'
 color_depth_map = depth_map_to_image(depth_map_name)
 
 cv2.imwrite('171_color.png', color_depth_map)
+
+# for more details visit
+# https://www.learnopencv.com/applycolormap-for-pseudocoloring-in-opencv-c-python/
